@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+}
+fieldset{
+    margin: 30px;
+}
+fieldset label{
+    margin: 10px;
+    display: inline-block;
+}
+.float_window{
+    position: fixed;
+    left:50%;
+    top: 50%;
+    width: 400px;
+    height: 300px;
+    margin-left: -200px;
+    margin-top: -150px;
+    border: solid 1px black;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    z-index: 20;
+    background: white;
+}
+.float_window header{
+    text-align: center;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #eee;
+    border-bottom: solid 1px black;
+
+}
+.button_wrap{
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+}
+.button_wrap button{
+    font-size: 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.mask{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: gray;
+    opacity: 0.4;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+}
+fieldset{
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    font-family: '宋体';
+    font-size: 20px;
+}
+input[name="choice"]{
+    margin-left: 50px;
+}
+select{
+    width:200px;
+    height:30px;
+    margin-right: 50px;
+    border-radius: 5px;
+    outline: none;
+    font-family: '宋体';
+    font-size: 20px;
+}
+.work{
+    width:400px;
+    height:30px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: solid 1px #AAA;
+    outline: none;
+    font-family: '宋体';
+    font-size: 20px;
+}
+span{
+    width: 80px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+.stu_wrap{
+    display: none;
+    margin-top: 20px;
+}
+.no_stu_wrap{
+    display: none;
+    margin-top: 20px;
+
+}

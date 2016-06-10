@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task31_表单联动</title>
+	<link rel="stylesheet" href="task31.css"/>
+	<script src="task31.js"></script>
+</head>
+<body>
+	<fieldset>
+		<legend>表单联动</legend>
+		<label><input type="radio" name="choice" class="stu"> 在校生</label>
+		<label><input type="radio" name="choice" class="no_stu"> 非在校生</label>
+		<div class="stu_wrap">
+			<label><span>学校</span><select class="city">
+			</select><select class="school">
+			</select></label>
+		</div>
+		<div class="no_stu_wrap">
+			<label><span>就业单位</span><input type="text" name="work" class="work"></label>
+		</div>
+	</fieldset>
+</body>
+</html>

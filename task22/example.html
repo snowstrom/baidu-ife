@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>background_example</title>
+	<style>
+		.inner{
+			width: 100px;
+			height: 50px;
+			margin: 10px;
+			border: solid 1px black;
+			float: left;
+
+		}
+		.wrap{
+			padding: 10px;
+			border: solid ;
+			float: left;
+		}
+	</style>
+	<script>
+		window.onload=function(){
+			document.getElementsByClassName("wrap")[0].style.background= "red";
+		}
+
+
+		clear_time = setInterval(function () {
+			index ++;
+			if(index < arr_obj.length){
+				arr_obj[index-1].style.background="white";
+				arr_obj[index].style.background = "green";
+			}else {
+				clearInterval(clear_time);
+				arr_obj[arr_obj.length-1].style.background = "white";
+			}
+		},1000);
+	</script>
+</head>
+<body>
+<div class="wrap">
+	<div class="inner">
+		inner
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>听指令的小方块</title>
+	<link rel="stylesheet" href="task35Stylesheet.css"/>
+	<script src="task35Js.js"></script>
+</head>
+<body>
+<div class="wrap">
+	<ul class="row_count"></ul>
+	<ul class="col_count"></ul>
+	<div class="main_panel"></div>
+	<table>
+		<tr><th>命令</th><th>描述</th></tr>
+		<tr><td>GO</td><td>向蓝色边所面向的方向前进一格</td></tr>
+		<tr><td>TUN LEF</td><td>向左转（逆时针旋转90度）</td></tr>
+		<tr><td>TUN RIG</td><td>向右转（顺时针旋转90度）</td></tr>
+		<tr><td>TUN BAC</td><td>向右转（旋转180度）</td></tr>
+		<tr><td>TRA LEF</td><td>向屏幕的左侧移动一格，方向不变</td></tr>
+		<tr><td>TRA TOP</td><td>向屏幕的上面移动一格，方向不变</td></tr>
+		<tr><td>TRA RIG</td><td>向屏幕的右侧移动一格，方向不变</td></tr>
+		<tr><td>TRA BOT</td><td>向屏幕的下面移动一格，方向不变</td></tr>
+		<tr><td>MOV LEF</td><td>方向转向屏幕左侧，向屏幕的左侧移动一格</td></tr>
+		<tr><td>MOV TOP</td><td>方向转向屏幕上面，向屏幕的上面移动一格</td></tr>
+		<tr><td>MOV RIG</td><td>方向转向屏幕右侧，向屏幕的右侧移动一格</td></tr>
+		<tr><td>MOV BOT</td><td>方向转向屏幕下面，向屏幕的下面移动一格</td></tr>
+	</table>
+	<div class="command_wrap">
+		<button id="exec_set">执行</button><button id="refresh">清屏</button>
+		<div class="wrap_inner">
+			<ul class="col_num"></ul>
+			<textarea id="command_set" rows="8"></textarea>
+		</div>
+	</div>
+	<div class="operation">
+		<input type="text" id="command">
+		<button id="execute">执行</button><button id="reset">方块复位</button>
+		<p>参考右侧命令说明，输入指定命令</p>
+	</div>
+</div>
+</body>
+</html>

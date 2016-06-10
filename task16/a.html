@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>example</title>
+</head>
+<body>
+	<div>
+		<button id="first">add new</button>
+		<button id="second">attach event</button>
+	</div>
+<script>
+	document.getElementById("second").addEventListener("click",function(){
+		obj_p = document.getElementsByTagName("p");
+		for(var i=0;i<obj_p.length;i++)
+			obj_p[i].style.color = 'red';
+	})
+	document.getElementById("first").addEventListener("click",function(event){
+		var btn=document.createElement("p");
+		btn.innerHTML="click me";
+		this.parentNode.appendChild(btn);
+	})
+</script>
+</body>
+</html>

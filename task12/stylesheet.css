@@ -1,0 +1,95 @@
+table{
+    border-collapse: collapse;
+    font-family: "Microsoft YaHei";
+}
+table thead{
+    background-color: black;
+    color: white;
+}
+th,td{
+    text-align: left;
+    border: solid 1px white;
+}
+table tbody tr:nth-child(2n){
+    background-color: grey;
+}
+table tbody tr:nth-child(2n+1){
+    background-color: white;
+}
+table tbody tr:nth-child(1),table tbody tr:nth-child(2),table tbody tr:nth-child(3){
+    color: red;
+}
+.animate{
+    width: 200px;
+    transition: width 1s ease;
+}
+.animate:focus{
+    width: 500px;
+}
+.banner{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    border: solid 1px black;
+    overflow: hidden;
+    position: relative;
+}
+#wrap{
+    width: 600px;
+    position: absolute;
+    left: 0;
+}
+#blue{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 1s ease;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+#red{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    transition: left 1s ease;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+#black{
+    position: absolute;
+    left: 400px;
+    top: 0;
+    transition: left 1s ease;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+}
+.banner ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    z-index: 99;
+}
+.banner ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: aqua;
+    width: 15px;
+    text-align: center;
+}
+#blue:target {
+    left: 0;
+}
+#blue:target~div{
+    left: 200px;
+}
+#red:target{
+    left: 0;
+}
+#black:target{
+    left: 0;
+}

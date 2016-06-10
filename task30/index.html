@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task30</title>
+	<link rel="stylesheet" href="task30.css"/>
+	<script src="task30.js"></script>
+</head>
+<body>
+	<fieldset>
+		<legend>表单验证</legend>
+		<form>
+			<label><span>名称：</span><input type="text" id="name"></label>
+			<p id="name_val">必填，长度为4～16个字符</p>
+			<label><span>密码：</span><input type="password" id="password"></label>
+			<p id="password_val">必填，大小写字母或数字</p>
+			<label><span>确认密码：</span><input type="password" id="confirm_psd"></label>
+			<p id="confirm_psd_val">必填，请与上面密码相同</p>
+			<label><span>邮箱：</span><input type="text" id="email"></label>
+			<p id="email_val">必填，请输入有效邮箱</p>
+			<label><span>手机：</span><input type="text" id="tel"></label>
+			<p id="tel_val">必填，需为11位数字</p>
+			<button id="submit">提交</button>
+		</form>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrap{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 600px;
+    font-family:"Microsoft YaHei";
+}
+.row_count{
+    margin-left: 50px;
+}
+.col_count{
+    float: left;
+}
+.row_count li,.col_count li{
+    list-style: none;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+
+    font-size:20px;
+}
+.row_count li{
+    display: inline-block;
+}
+.main_panel{
+    float: left;
+    width:500px;
+    height: 500px;
+    border:2px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+.grid_cell{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px grey solid;
+}
+.operation{
+    clear: both;
+    margin-left: 50px;
+}
+.operation p{
+    font-size:15px;
+    margin-top: 10px;
+}
+button{
+    margin-left: 10px;
+}
+.block{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-top:solid 10px blue;
+    background-color: red;
+    position: absolute;
+    transition: all 1s linear;
+}
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin-left: 20px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+td,th{
+    border:solid grey 1px;
+    font-size:15px;
+}
+.command_wrap{
+    position: absolute;
+    right: 80px;
+    bottom: 60px;
+}
+.wrap_inner{
+    height: 162px;
+    width: 340px;
+    overflow: auto;
+}
+#command_set{
+    float: left;
+    width: 300px;
+    line-height: 20px;
+    vertical-align: baseline;
+    resize: none;
+    background-color: black;
+    color: green;
+    font-family:"Microsoft YaHei";
+    font-size:10px;
+    outline: none;
+    overflow: hidden;
+}
+.col_num{
+    float: left;
+    display: block;
+    width: 20px;
+    height: 162px;
+    background-color: grey;
+    color: white;
+}
+.li_num{
+    list-style: none;
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 12px;
+}

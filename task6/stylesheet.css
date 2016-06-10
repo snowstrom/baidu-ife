@@ -1,0 +1,334 @@
+*{
+    padding: 0; margin: 0;
+}
+.contain{
+    width: 892px;
+    height: 1386px;
+    padding: 0 44px;
+    border: solid 1px black;
+}
+.fir_contain  .lef{
+    float: left;
+    width: 110px;
+    height: 61px;
+    background-color: #D45C5B;
+    position: relative;
+}
+.fir_contain .lef p{
+    font-family:SimHei;
+    font-size: 12px;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.fir_contain .rig{
+    float: right;
+    width: 110px;
+    height: 61px;
+    position: relative;
+}
+.fir_contain time{
+    font-family:SimHei;
+    font-size: 12px;
+    color: #d45d5c;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.fir_contain .line{
+    width: 892px;
+    height: 2px;
+    background-color: #938e8c;
+    clear: both;
+    margin: 0 ;
+}
+.sec_contain{
+    padding-top: 34px;
+}
+.sec_contain .pic_box{
+    position: relative;
+    float: left;
+}
+.sec_contain .pic_box .left_tran{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 191px;
+    height: 301px;
+    background-color: rgba(0,0,0,0.2);
+}
+.sec_contain .pic_box .right_tran{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 191px;
+    height: 301px;
+    background-color: rgba(0,0,0,0.2);
+}
+.sec_contain .rig_box{
+    float: right;
+    width: 205px;
+    padding-left: 46px;
+
+}
+.sec_contain .line{
+    width: 203px;
+    height: 2px;
+    background-color: #cc8091;
+}
+.sec_contain .rig_box .about{
+    font-family: Microsoft YaHei;
+    font-size: 24px;
+    font-variant:small-caps ;
+    text-transform: capitalize;
+    line-height: 40px;
+    text-decoration: underline;
+    color: #000000;
+}
+.sec_contain .rig_box p{
+    font-family: KaiTi;
+    font-size: 12px;
+    line-height: 10px;
+    color: #676767;
+}
+.sec_contain .rig_box .num_700{
+    font-family: Microsoft YaHei;
+    font-size: 116px;
+    font-style: italic;
+    color: #75b86b;
+}
+.sec_contain .rig_box .num_3{
+    float: left;
+    font-family: Microsoft YaHei;
+    font-size: 55px;
+    color: #cc8091;
+}
+.sec_contain .rig_box .css{
+    float: left;
+    padding-top:18px ;
+}
+.sec_contain .rig_box .css .one{
+    font-family: Microsoft YaHei;
+    font-size: 21px;
+    color: #cc8091;
+}
+.sec_contain .rig_box .css .two{
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: #cc8091;
+}
+
+.thi_contain{
+    clear: both;
+    padding-top: 40px;
+}
+/**/
+.thi_contain .l_contain{
+    float: left;
+    width: 232px;
+    height: 145px;
+    padding-right: 28px;
+    overflow: hidden;
+}
+.thi_contain .l_contain h3{
+    font-family: Microsoft YaHei;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #418c59;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.thi_contain .l_contain p{
+    font-family: SimSun;
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+}
+/**/
+.thi_contain .m_contain{
+    float: left;
+    width: 208px;
+    height: 145px;
+    padding-right: 28px;
+    overflow: hidden;
+}
+.thi_contain .m_contain h3{
+    font-family: Microsoft YaHei;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #d2994f;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.thi_contain .m_contain p{
+    font-family:  Microsoft YaHei;
+    font-size: 12px;
+    color: #231815;
+    line-height: 16px;
+    opacity: 0.7;
+}
+/**/
+.thi_contain .r_contain{
+    float: left;
+    width: 132px;
+    height: 145px;
+    overflow: hidden;
+}
+.thi_contain .r_contain h3{
+    font-family: Microsoft YaHei;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #cc7680;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.thi_contain .r_contain p{
+    font-family:  Microsoft YaHei;
+    font-size: 12px;
+    color: #231815;
+    line-height: 16px;
+    opacity: 0.7;
+}
+
+.thi_contain .r_contain .statistics span{
+    font-family:  Microsoft YaHei;
+    font-size: 12px;
+    font-style: italic;
+    color: #cd4a48;
+    line-height: 16px;
+    opacity: 0.7;
+}
+/*forth_contain*/
+.for_contain{
+    clear: both;
+    padding-top: 60px;
+
+}
+.for_contain .lef_contain{
+    padding-right: 16px;
+    float: left;
+    width: 415px;
+    height: 605px;
+    overflow: hidden;
+}
+.for_contain .lef_contain h1 .the{
+    font-family: SimHei;
+    font-size: 72px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #f5e327;
+}
+.for_contain .lef_contain h1 .tec{
+    font-family: SimHei;
+    font-size: 42px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #11456b;
+}
+.for_contain .lef_contain .line{
+    width: 415px;
+    height: 2px;
+    background-color: #10446b;
+}
+.for_contain .lef_contain p{
+    padding-top: 16px;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    text-indent: 2em;
+}
+.for_contain .lef_contain img{
+    float: right;
+}
+/**/
+.for_contain .rig_contain{
+    float: left;
+    width: 458px;
+    height: 605px;
+}
+.for_contain .rig_contain .bottom_div{
+    width: 459px;
+    height: 280px;
+    background-color: #EDECD6;
+    margin-top: 30px;
+    padding: 30px 10px 0 10px;
+
+}
+.for_contain .rig_contain .bottom_div ul li{
+    list-style-image:url("li_img.jpg");
+    line-height: 20px;
+    font-family: SimSun;
+    font-size: 16px;
+    color: #5a5b5b;
+    text-align: left;
+}
+.for_contain .rig_contain .bottom_div .foot_div{
+    overflow: hidden;
+    padding-top: 30px;
+}
+.for_contain .rig_contain .bottom_div .last_block{
+    float: left;
+    width: 260px;
+    height: 160px;
+   background-color: #D45C5B;
+}
+.for_contain .rig_contain .bottom_div .last_block .left{
+    font-size: 110px;
+    font-family: Microsoft YaHei;
+    float: left;
+    color: #fff;
+}
+
+.for_contain .rig_contain .bottom_div .last_block .center{
+    width: 2px;
+    height: 86px;
+    background-color: #fff;
+    float: left;
+    margin: 30px 5px ;
+}
+.for_contain .rig_contain .bottom_div .last_block .right .top{
+    font-family: SimHei;
+    font-size: 21px;
+    font-style: italic;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 30px 0 5px ;
+}
+
+.for_contain .rig_contain .bottom_div .last_block .right .bottom{
+    font-family: SimHei;
+    font-size: 12px;
+    color: #ffffff;
+
+}
+
+.for_contain .rig_contain .bottom_div p{
+    font-family: SimHei;
+    font-size: 14px;
+    font-style: italic;
+    color: #5a5b5b;
+    line-height: 16px;
+    position: relative;
+}
+.for_contain .rig_contain .bottom_div p span{
+    font-family: SimHei;
+    font-size: 72px;
+    font-style: italic;
+}
+.fif_contain{
+    clear: both;
+    padding-top: 30px;
+}
+.fif_contain .line{
+    width: 892px;
+    height: 2px;
+    background-color: #938e8c;
+}
+.fif_contain .ife{
+    float: right;
+    font-family:SimHei ;
+    font-size: 12px;
+    color: #d45d5c;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task18</title>
+
+	<style>
+		#right_enter{
+			margin-right: 30px;
+		}
+		button{
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" id="enter">
+	<button id="left_enter">左侧入</button>
+	<button id="right_enter">右侧入</button>
+	<button id="left_out">左侧出</button>
+	<button id="right_out">右侧出</button>
+	<div id="wrap">
+	</div>
+	<script>
+		var wrap_obj = document.getElementById("wrap");
+		var btn = document.getElementsByTagName("button");
+		for(var key=0;key<btn.length ;key++){
+			btn[key].addEventListener("click", function (event) {
+				var num = document.getElementById("enter").value;
+				switch (event.target.id){
+					case "left_enter":{
+						var in_obj = document.createElement("div");
+						in_obj.style.float = "left";
+						in_obj.style.background = "red";
+						in_obj.style.marginLeft="10px";
+						in_obj.innerText = num;
+						in_obj.onclick=function(){
+							this.parentNode.removeChild(this);
+						}
+						wrap_obj.insertBefore(in_obj,wrap_obj.childNodes[0]);
+
+					}
+						break;
+					case "right_enter":{
+						var in_obj = document.createElement("div");
+						in_obj.style.float = "left";
+						in_obj.style.background = "red";
+						in_obj.style.marginLeft="10px";
+						in_obj.innerText = num;
+						in_obj.onclick=function(){
+							this.parentNode.removeChild(this);
+						}
+						wrap_obj.appendChild(in_obj);
+					}
+						break;
+					case "left_out":{
+						wrap_obj.removeChild(wrap_obj.firstChild);
+					}
+						break;
+					case "right_out":{
+						wrap_obj.removeChild(wrap_obj.lastChild);
+					}
+						break;
+					default:break;
+				}
+			})
+		}
+	</script>
+</body>
+</html>
